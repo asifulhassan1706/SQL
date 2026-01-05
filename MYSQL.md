@@ -41,6 +41,10 @@ ALTER USER 'username'@'host' IDENTIFIED BY 'newpassword';
 ## 📝 3. Backup & Restore(MySQL terminal)
 
 ```sql
+
+#Table Backup
+Select * into <new Table> from <present Table>
+
 #(MySQL) Export database (from terminal)
 mysqldump -u user -p database_name > backup.sql
 
